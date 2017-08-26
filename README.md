@@ -44,7 +44,7 @@ Lighthouse uses Travis CI for continuous integration. This repository contains a
 
 This repository is configured to generate coverage reports. These reports can be published to Coveralls.io, which integrates with your repository on GitHub. To enable coverage reports [add the repository on Coveralls.io](https://coveralls.io/repos/new) You might need to hit "Sync repos" in order for your new repository to appear in the list. The badge in this readme will be updated with the current code coverage.
 
-### 7. Version and release**
+### 7. Version and release
 
 To let others use your project you need to [version your project](https://docs.npmjs.com/cli/version) and [publish your project as an npm package](https://docs.npmjs.com/cli/publish):
 
@@ -52,8 +52,13 @@ To let others use your project you need to [version your project](https://docs.n
 npm version minor
 npm publish
 ```
+The badge in this readme will show the latest version of your project.
 
-Note: this is the last step. So remove these steps from the readme before you publish it to npm. If this boilerplate helped you out, consider to put a link to this repository to help others.
+### 8. Submit to Lighthouse
+
+Time to show off what you made. You can suggest your projects as one of the [Lighthouse Related Projects](https://github.com/GoogleChrome/lighthouse#related-projects) by submitting an issue or pull request on the Lighthouse repository.
+
+Note: don't forget to remove these steps from the readme before you publish it to npm. If this boilerplate helped you out, consider to put a link to this repository to help others.
 
 ---
 
